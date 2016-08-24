@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Dribbble / Jobs</title>
+    <link>https://dribbble.com/jobs</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://dribbble.com/jobs.rss"/>
+    <description>Dribbble - Jobs</description>
+    <language>en-us</language>
+    <image>
+      <url>image.ico</url>
+      <title>Dribbble</title>
+      <link>https://dribbble.com/</link>
+      <width>64</width>
+      <height>64</height>
+    </image>
+    <item>
+      <title>Position in San Francisco, CA</title>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <dc:creator>Example.org</dc:creator>
+      <pubDate>Wed, 24 Aug 2016 15:20:30 -0400</pubDate>
+      <link>https://dribbble.com/jobs/111?source=feed</link>
+      <guid>https://dribbble.com/jobs/111</guid>
+    </item>
+  </channel>
+</rss>
