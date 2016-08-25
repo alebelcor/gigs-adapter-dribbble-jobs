@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Dribbble's job board](https://dribbble.com/jobs)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-dribbble-jobs.svg)](https://npmjs.org/package/gigs-adapter-dribbble-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-dribbble-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-dribbble-jobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-dribbble-jobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-dribbble-jobs)
 
