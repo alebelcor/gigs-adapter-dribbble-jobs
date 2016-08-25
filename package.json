@@ -31,7 +31,8 @@
     "url": "https://github.com/alebelcor/gigs-adapter-dribbble-jobs.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "feedme": "^0.3.2",
@@ -41,7 +42,9 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "is-plain-obj": "^1.1.0"
+    "coveralls": "^2.11.12",
+    "is-plain-obj": "^1.1.0",
+    "nyc": "^8.1.0"
   },
   "engines": {
     "node": ">=4"
