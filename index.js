@@ -9,10 +9,11 @@ const getGigs = require('./lib/get-gigs');
 
 const ADAPTER_ENDPOINT = 'https://dribbble.com/jobs.rss';
 
-module.exports = function gigsAdapterDribbbleJobs() {
-  return got.get(ADAPTER_ENDPOINT, getGotOptions())
-    .then(getResponseBody)
-    .then(getJson)
-    .then(getGigs)
-    .catch(console.error);
+module.exports = async () => {
+  try {
+    const response = await got.get(ADAPTER_ENDPOINT, getGotOptions());
+    return getGigs(getJson(getResponseBody(response)));
+  } catch (error) {
+    console.error(error);
+  }
 };

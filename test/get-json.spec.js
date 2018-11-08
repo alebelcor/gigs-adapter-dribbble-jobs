@@ -3,6 +3,7 @@
 import {join} from 'path';
 import test from 'ava';
 import isPlainObj from 'is-plain-obj';
+
 import getJson from '../lib/get-json';
 
 test('it should return json', t => {

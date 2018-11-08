@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getLocation from '../lib/get-location';
 
 test('it should return the location', t => {

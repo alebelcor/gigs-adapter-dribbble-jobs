@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getTitle from '../lib/get-title';
 
 test('it should return the title', t => {
